@@ -13,15 +13,14 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 from typing import Any
 
+# from stocks.stocks.secrets import SECRET_KEY
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "3afs#!5tl8p#b^1twi8j=%1mq8ix*o4&-!_92%up4r_3_@k4s-"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
